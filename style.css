@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+img{
+    width:200px;
+    height:200px;
+}
+#bulb{
+    width: 200px;
+    height: 200px;
+}
+button{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.fan{
+    animation: movefan 5s infinite;
+}
+@keyframes movefan{
+    0%{
+        transform: rotate(360deg) ;
+    }
+    25%{
+        transform: rotate(0deg) ;
+    }
+    50%{
+        transform: rotate(360deg) ;
+    }
+    75%{
+        transform: rotate(0deg) ;
+    }
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
